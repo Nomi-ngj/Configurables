@@ -13,7 +13,7 @@ public class TableRowConfigurator<CellType: CellConfigurable, CellViewModel>: Ro
     public var backgroundColor: UIColor = .white
     let cellViewModel: CellViewModel
     
-    init(cellViewModel:CellViewModel){
+    public init(cellViewModel:CellViewModel){
         self.cellViewModel = cellViewModel
     }
     
