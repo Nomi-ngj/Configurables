@@ -9,4 +9,5 @@ import Foundation
 
 public protocol StoryboardIdentifiyable:NSObject{
     func name()->String
+    var bundle:Bundle { get set }
 }
