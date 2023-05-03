@@ -8,6 +8,6 @@
 import Foundation
 
 public protocol StoryboardIdentifiyable:NSObject{
-    func name()->String
+    var name:String { get set }
     var bundle:Bundle { get set }
 }
